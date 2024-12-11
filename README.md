@@ -88,7 +88,7 @@ If you don’t have Go installed, download it from the [official Go website](htt
 
 ### 2. **Clone the Project** 👨‍💻
 ```bash
-git clone https://github.com/UseStateShivam/bananaboat.git
+git clone https://github.com/UseStateShivam/BananaBoat.git
 cd bananaboat
 ```
 
