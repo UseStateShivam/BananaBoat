@@ -1,4 +1,4 @@
-# Bananaboat 🍌⛵
+# BananaBoat 🍌⛵
 
 **Bananaboat** is an ambitious project aimed at building a containerization system from scratch, similar to Docker, using Go. This project will give hands-on experience with containerization, operating system concepts, resource management, and networking, all while strengthening Go skills.
 
