@@ -4,7 +4,35 @@
 
 ## 📂 Folder Structure
 
-
+bananaboat/
+├── cmd/                    # Command-line interface logic
+│   └── bananaboat.go       # Entry point for the CLI
+├── internal/               # Internal packages (non-exported)
+│   ├── container/          # Core containerization logic
+│   │   ├── manager.go      # Container management logic
+│   │   ├── process.go      # Process isolation and execution
+│   │   └── network.go      # Networking features (future)
+│   └── utils/              # Utility functions and helpers
+│       └── logger.go       # Logging helper
+├── pkg/                    # Exported libraries (optional, reusable code)
+│   └── config/             # Configuration management
+│       └── config.go       # Handles YAML/JSON configuration
+├── scripts/                # Scripts for setup, build, and deployment
+│   ├── build.sh            # Build script
+│   └── test.sh             # Test runner script
+├── test/                   # Test cases
+│   ├── container_test.go   # Unit tests for container logic
+│   └── e2e/                # End-to-end tests
+│       └── cli_test.go     # CLI integration tests
+├── web/                    # Future: Frontend application (Remix)
+│   ├── app/                # Remix app folder
+│   └── package.json        # Frontend dependencies
+├── Dockerfile              # Dockerfile for running/deploying bananaboat itself
+├── README.md               # Project documentation
+├── LICENSE                 # Open source license
+├── go.mod                  # Go module file
+├── go.sum                  # Go module dependencies
+└── .gitignore              # Files and directories to ignore in Git
 
 ## 🚀 Project Roadmap
 
