@@ -3,7 +3,7 @@
 **Bananaboat** is an ambitious project aimed at building a containerization system from scratch, similar to Docker, using Go. This project will give hands-on experience with containerization, operating system concepts, resource management, and networking, all while strengthening Go skills.
 
 ## 📂 Folder Structure
-
+```bash
 bananaboat/
 ├── cmd/                    # Command-line interface logic
 │   └── bananaboat.go       # Entry point for the CLI
@@ -33,6 +33,7 @@ bananaboat/
 ├── go.mod                  # Go module file
 ├── go.sum                  # Go module dependencies
 └── .gitignore              # Files and directories to ignore in Git
+```
 
 ## 🚀 Project Roadmap
 
